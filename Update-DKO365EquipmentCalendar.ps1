@@ -2,17 +2,17 @@ function Update-DKO365EquipmentCalendar
 {
 	<#
 	.SYNOPSIS
-		Ställer in standardinställningar på en Exchange Online-kalender
+		StÃ¤ller in standardinstÃ¤llningar pÃ¥ en Exchange Online-kalender
 	.DESCRIPTION
 		Funktionen Update-UK365EquipmentCalendar tar emot ett eller flera konton
-		för en Exchange Online-kalender och sätter sedan ett uppsättning av standardvärden
-		på kalendern.
+		fÃ¶r en Exchange Online-kalender och sÃ¤tter sedan ett uppsÃ¤ttning av standardvÃ¤rden
+		pÃ¥ kalendern.
 	.EXAMPLE
-		Update-DKO365EquipmentCalendar rkalit001
+		Update-DKO365EquipmentCalendar room001
 	.PARAMETER name
-		En eller flera användarobjekt eller sträng med sAMAccountName
+		En eller flera anvÃ¤ndarobjekt eller strÃ¤ng med sAMAccountName
 	.NOTES
-		Funktionen kräver rättighet i Office 365. 
+		Funktionen krÃ¤ver rÃ¤ttighet i Office 365. 
 
 		Author: David Krasowski - david.krasowski@gmail.com
 	#>
